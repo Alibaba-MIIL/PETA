@@ -29,7 +29,8 @@ subjective task, thus opening the door for new applications.
 
 
 ## Photo albums Event Recognition using Transformers Attention (PETA) Implementation
-In this PyTorch [file](src\models\aggregate\layers\transformer_aggregate.py), we provide an implementation of our photo album event recognition using transformers attention (PETA).
+An implementation of our model for photo albumm event recognition using transformers is found [here](src\models\aggregate\layers\transformer_aggregate.py).
+
 
 ## Pretrained Models
 We provide a pre-trained model on MLCUFED dataset, which can be found in [here](https://miil-public-eu.oss-eu-central-1.aliyuncs.com/model-zoo/PETA/peta_32.pth
