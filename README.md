@@ -100,4 +100,4 @@ Feel free to contact if there are any questions or issues - Tamar Glaser (tamar.
 Ben-Baruch (emanuel.benbaruch@alibaba-inc.com) or Gilad Sharir (gilad.sharir@alibaba-inc.com) -->
 
 ## Acknowledgements
-Several albums from Ml-CUFED dataset ([link](https://arxiv.org/abs/1707.05911)) are used in this project. Some components of this code implementation are adapted from the repository https://github.com/Alibaba-MIIL/ASL.
+Several albums from ML-CUFED dataset ([link](https://arxiv.org/abs/1707.05911)) are used in this project. Some components of this code implementation are adapted from the repository https://github.com/Alibaba-MIIL/ASL.
