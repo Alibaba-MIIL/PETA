@@ -1,6 +1,6 @@
 # PETA: Photo Albums Event Recognition using Transformers Attention
 
-[Paper](https://arxiv.org/abs/2109.12499) |  [Pretrained models](https://miil-public-eu.oss-eu-central-1.aliyuncs.com/model-zoo/PETA/peta_32.pth)
+[Paper](https://arxiv.org/abs/2109.12499) |  [Pretrained models](https://miil-public-eu.oss-eu-central-1.aliyuncs.com/model-zoo/PETA/peta_32.pth?OSSAccessKeyId=LTAI4Fn4sgPQqdeTuWkvpq37&Expires=1637104945&Signature=Ql0asyUqtMro5XNcgVnqFEiT8z8%3D)
 
 Official PyTorch Implementation
 
