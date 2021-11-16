@@ -1,6 +1,6 @@
 # PETA: Photo Albums Event Recognition using Transformers Attention
 
-[Pretrained models](https://miil-public-eu.oss-eu-central-1.aliyuncs.com/model-zoo/PETA/peta_32.pth)
+[Paper](https://arxiv.org/abs/2109.12499) |[Pretrained models](https://miil-public-eu.oss-eu-central-1.aliyuncs.com/model-zoo/PETA/peta_32.pth)
 
 Official PyTorch Implementation
 
@@ -29,24 +29,25 @@ subjective task, thus opening the door for new applications.
 
 
 ## Photo albums Event Recognition using Transformers Attention (PETA) Implementation
-An implementation of our model for photo albumm event recognition using transformers is found [here](src\models\aggregate\layers\transformer_aggregate.py).
+An implementation of our model for photo albumm event recognition using transformers is found [here](https://github.com/Alibaba-MIIL/PETA/blob/main/src/models/aggregate/layers/transformer_aggregate.py).
+- ```class TAggregate(nn.Module)```
 
 
 ## Pretrained Models
-We provide a pre-trained model on MLCUFED dataset, which can be found in [here](https://miil-public-eu.oss-eu-central-1.aliyuncs.com/model-zoo/PETA/peta_32.pth
+We provide a pre-trained model on ML-CUFED dataset, which can be found in [here](https://miil-public-eu.oss-eu-central-1.aliyuncs.com/model-zoo/PETA/peta_32.pth?OSSAccessKeyId=LTAI4Fn4sgPQqdeTuWkvpq37&Expires=1637104945&Signature=Ql0asyUqtMro5XNcgVnqFEiT8z8%3D)
 
-## Inference Code
+## Inference Code (Demo)
 We provide an [inference code](infer.py), that demonstrates how to load our model, pre-process some sample albums do actual inference. Example run:
 
 ```
 python infer.py  \
 --model_path=./models_local/peta_32.pth \
 --model_name=mtresnetaggregate \
---val_dir=./albums \
---num_classes=23 \
+--album_path albums/Personal_sports/44_65592177@N00 \
+--threshold=0.9 \
 ```
 
-which will result in:
+### Result Examples
 #
 ![](./outputs/45820_163934428_128e9cfe08_m.jpg)
 
@@ -90,6 +91,9 @@ Note: the resolution is higher as we compared to object detection based methods 
   timestamp = {Wed, 18 Aug 2021 19:52:30 +0200}
 }
 ```
-## Contact
+<!-- ## Contact
 Feel free to contact if there are any questions or issues - Tamar Glaser (tamar.glaser@alibaba-inc.com) or Emanuel
-Ben-Baruch (emanuel.benbaruch@alibaba-inc.com) or Gilad Sharir (gilad.sharir@alibaba-inc.com)
+Ben-Baruch (emanuel.benbaruch@alibaba-inc.com) or Gilad Sharir (gilad.sharir@alibaba-inc.com) -->
+
+## Acknowledgements
+Several albums from Ml-CUFED dataset ([link](https://arxiv.org/abs/1707.05911)) are used in this project. Some components of this code implementation are adapted from the repository https://github.com/Alibaba-MIIL/ASL.
