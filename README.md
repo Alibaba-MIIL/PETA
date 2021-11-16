@@ -32,9 +32,8 @@ subjective task, thus opening the door for new applications.
 An implementation of our model for photo albumm event recognition using transformers is found [here](https://github.com/Alibaba-MIIL/PETA/blob/main/src/models/aggregate/layers/transformer_aggregate.py).
 - ```class TAggregate(nn.Module)```
 
-
 ## Pretrained Models
-We provide a pre-trained model on ML-CUFED dataset, which can be found in [here](https://miil-public-eu.oss-eu-central-1.aliyuncs.com/model-zoo/PETA/peta_32.pth?OSSAccessKeyId=LTAI4Fn4sgPQqdeTuWkvpq37&Expires=1637104945&Signature=Ql0asyUqtMro5XNcgVnqFEiT8z8%3D)
+We provide a pre-trained model on ML-CUFED dataset, which can be found [here](https://miil-public-eu.oss-eu-central-1.aliyuncs.com/model-zoo/PETA/peta_32.pth?OSSAccessKeyId=LTAI4Fn4sgPQqdeTuWkvpq37&Expires=1637104945&Signature=Ql0asyUqtMro5XNcgVnqFEiT8z8%3D)
 
 ## Inference Code (Demo)
 We provide an [inference code](infer.py), that demonstrates how to load our model, pre-process some sample albums do actual inference. Example run:
