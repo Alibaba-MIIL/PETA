@@ -48,8 +48,13 @@ python infer.py  \
 ```
 
 ### Result Examples
-#
-![](./outputs/45820_163934428_128e9cfe08_m.jpg)
+<p align="center">
+ <table class="tg">
+  <tr>
+    <td class="tg-c3ow"><img src="./figures/PETA_Results.png" align="center" width="900" ></td>
+  </tr>
+</table>
+</p>
 
 
 <!--
