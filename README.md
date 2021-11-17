@@ -57,7 +57,7 @@ python infer.py  \
 <p align="center">
  <table class="tg">
   <tr>
-    <td class="tg-c3ow"><img src="./figures/PETA_Results_2.png" align="center" width="900" ></td>
+    <td class="tg-c3ow"><img src="./figures/PETA_Results_2.png" align="center" width="890" ></td>
   </tr>
 </table>
 </p>
