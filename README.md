@@ -54,7 +54,13 @@ python infer.py  \
   </tr>
 </table>
 </p>
-
+<p align="center">
+ <table class="tg">
+  <tr>
+    <td class="tg-c3ow"><img src="./figures/PETA_Results_2.png" align="center" width="900" ></td>
+  </tr>
+</table>
+</p>
 
 <!--
 ### Training Code
